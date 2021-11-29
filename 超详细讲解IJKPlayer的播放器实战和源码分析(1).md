@@ -716,7 +716,7 @@ static int ijkmp_prepare_async_l(IjkMediaPlayer *mp)
 	SDL_RenderCopy(renderer, texture, NULL, NULL);
 
 
-7.暂停流程
+## 7.暂停流程 ##
 
 (1)函数IjkMediaPlayer_pause(JNIEnv *env, jobject thiz)->调用ijkmp_pause(mp)->ijkmp_pause_l(mp)->回调ffp_notify_msg1(mp->ffplayer, FFP_REQ_PAUSE)->msg_queue_put_simple3(&ffp->msg_queue, what, 0, 0)->msg_queue_put(q, &msg)->msg_queue_put_private(q, msg)->
 
@@ -824,7 +824,7 @@ inline static int msg_queue_put(MessageQueue *q, AVMessage *msg)
 	SDL_PeepEvents()；
 
 
-9.播放流程测试
+## 9.播放流程测试 ##
 
 在bin目录下，这个目录有这个日志文件:
 
@@ -834,7 +834,7 @@ inline static int msg_queue_put(MessageQueue *q, AVMessage *msg)
 ![](./ijkplayer/68b46359f61540b8a8996fc290e2039e.jfif)
 超详细讲解IJKPlayer的播放器实战和源码分析(1)
 
-10.IJK播放器时序
+## 10.IJK播放器时序 ##
 
 下面继续讲讲，如何从java层一直到ffplay的函数调用和分析。java层到ffplay的时序图如下:
 
