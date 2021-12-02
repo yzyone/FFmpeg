@@ -388,23 +388,15 @@ av_interleaved_write_frame(o_fmt_ctx, &packet);
 
 ## 4. 参考资料 ##
 
-[1]. [What does the output of ffmpeg mean? tbr tbn tbc etc?](http://ffmpeg-users.933282.n4.nabble.com/What-does-the-output-of-ffmpeg-mean-tbr-tbn-tbc-etc-td941538.html)
-
-[2]. [视频编解码基础概念, https://www.cnblogs.com/leisure_chn/p/10285829.html](https://www.cnblogs.com/leisure_chn/p/10285829.html)
-
-[3]. [对 ffmpeg 的时间戳的理解笔记, https://blog.csdn.net/topsluo/article/details/76239136](https://blog.csdn.net/topsluo/article/details/76239136)
-
-[4]. [ffmpeg 中的时间戳与时间基, http://www.imooc.com/article/91381](http://www.imooc.com/article/91381)
-
-[5]. [ffmpeg 编解码中涉及到的 pts 详解, http://www.52ffmpeg.com/article/353.html](http://www.52ffmpeg.com/article/353.html)
-
-[6]. [音视频录入的 pts 和 dts 问题, https://blog.csdn.net/zhouyongku/article/details/38510747](https://blog.csdn.net/zhouyongku/article/details/38510747)
+- [1]. [What does the output of ffmpeg mean? tbr tbn tbc etc?](http://ffmpeg-users.933282.n4.nabble.com/What-does-the-output-of-ffmpeg-mean-tbr-tbn-tbc-etc-td941538.html)
+- [2]. [视频编解码基础概念, https://www.cnblogs.com/leisure_chn/p/10285829.html](https://www.cnblogs.com/leisure_chn/p/10285829.html)
+- [3]. [对 ffmpeg 的时间戳的理解笔记, https://blog.csdn.net/topsluo/article/details/76239136](https://blog.csdn.net/topsluo/article/details/76239136)
+- [4]. [ffmpeg 中的时间戳与时间基, http://www.imooc.com/article/91381](http://www.imooc.com/article/91381)
+- [5]. [ffmpeg 编解码中涉及到的 pts 详解, http://www.52ffmpeg.com/article/353.html](http://www.52ffmpeg.com/article/353.html)
+- [6]. [音视频录入的 pts 和 dts 问题, https://blog.csdn.net/zhouyongku/article/details/38510747](https://blog.csdn.net/zhouyongku/article/details/38510747)
 
 ## 5. 修改记录 ##
 
 2019-03-16 V1.0 初稿
+
 2019-03-23 V1.1 增加 3.7 节
-
-分类: 音视频开发, ffmpeg
-
-标签: ffmpeg时间戳, time_base, pts, dts, av_packet_rescale_ts()
