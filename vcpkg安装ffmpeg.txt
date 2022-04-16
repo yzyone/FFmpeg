@@ -1,0 +1,11 @@
+在windows下选择需要的 feature 并进行安装：
+vcpkg install ffmpeg[sdl2,openjpeg,tesseract,opencl,theora,version3,lzma,opus,fdk-aac,swresample,gpl,bzip2,ilbc,aom,avdevice,nonfree,x265,iconv,vpx,mp3lame,avfilter,opengl,soxr,zlib,x264,postproc,avisynthplus,freetype,ffplay,fontconfig,ass,nvcodec,openssl,dav1d,swscale,openh264,vorbis,avformat,avcodec,all-nonfree,modplug,speex,snappy,all-gpl,avresample,ffprobe,ssh,webp,ffmpeg,fribidi,xml2]:x64-windows
+
+
+ffmpeg[sdl2,openjpeg,version3,lzma,opus,fdk-aac,gpl,bzip2,nonfree,x265,iconv,vpx,mp3lame,soxr,zlib,x264,ffplay,fontconfig,openssl,openh264,vorbis,all-nonfree,speex,all-gpl,ffprobe,ssh,webp,ffmpeg,fribidi,xml2,avcodec,avdevice,avfilter,avformat,core,swresample,swscale]:x64-windows
+
+安装通过的的功能
+ffmpeg[sdl2,bzip2,theora,postproc,openjpeg,version3,lzma,opus,vorbis,ass,ilbc,aom,soxr,fdk-aac,mp3lame,zlib,x264,x265,openh264,iconv,vpx,ssh,webp,dav1d,xml2,freetype,fontconfig,fribidi,ass,openssl,snappy,avcodec,avdevice,avfilter,avformat,core,swresample,swscale,ffplay,ffprobe,ffmpeg]:x64-windows
+
+默认安装的功能
+ffmpeg[avcodec,avdevice,avfilter,avformat,core,swresample,swscale]:x64-windows
