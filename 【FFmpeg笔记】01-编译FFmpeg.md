@@ -229,6 +229,7 @@ Component options:
 
 常用的arch有：
 
+```
 类型    名称
 aarch64|arm64    aarch64
 arm*|iPad*|iPhone*    arm
@@ -240,9 +241,11 @@ sh4|sh    sh4
 sun4*|sparc*    sparc
 tilegx|tile-gx    tilegx
 i[3-6]86*|i86pc|BePC|x86pc|x86_64|x86_32|amd64    x86
+```
 
 常用的target_os有：
 
+```
 target_os
 android
 freebsd
@@ -252,11 +255,14 @@ win32|win64
 cygwin*
 *-dos|freedos|opendos
 linux
+```
 
 ## 六、开始编译 ##
 
 进入在 ffmpeg 目录，执行 “ build_android.sh”，如下：
-bassy@ubuntu:~/Desktop/develop/ffmpeg$ sudo ./build_android.sh 
+
+    bassy@ubuntu:~/Desktop/develop/ffmpeg$ sudo ./build_android.sh 
+
 接下来可以去喝杯水，休闲地等它编译……快的话，十多分钟就完成编译了。
 
 ```
