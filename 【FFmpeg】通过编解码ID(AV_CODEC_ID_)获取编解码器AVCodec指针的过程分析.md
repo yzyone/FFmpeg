@@ -1,0 +1,1 @@
+# 【FFmpeg】通过编解码ID(AV_CODEC_ID_*)获取编解码器AVCodec指针的过程分析
